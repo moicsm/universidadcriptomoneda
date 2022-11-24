@@ -88,6 +88,38 @@ body {
 .nav__close {
     display: var(--show, none);
 }
+/* form input */
+.form__title {
+    font-size: 0.8rem;
+    margin-bottom: 1em;
+}
+.form_paragraph{
+    font-size: 0.8rem;
+}
+
+
+.form {
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 1.8em 3em;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+    text-align: center;
+}
+.form__input {
+    width: 70%;
+    color: #000000;
+    line-height: 0;
+    padding: 0.4em 0.3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color);
+}
+.form__container {
+    margin-top: 1em;
+    display: grid;
+    gap: 0.6em;
+}
 
 
 /* Hero container */
@@ -98,17 +130,18 @@ body {
     display: grid;
     grid-auto-rows: max-content;
     align-content: center;
-    gap: 1em;
+    gap: 0em;
     padding-bottom: 100px;
     text-align: center;
 }
 
 .hero__title {
     font-size: 3rem;
+    margin-bottom: 0.1em;
 }
 
 .hero__paragraph {
-    margin-bottom: 20px;
+    margin-bottom: 17px;
 }
 
 .cta {
@@ -119,6 +152,7 @@ body {
     text-decoration: none;
     padding: 13px 30px;
     border-radius: 32px;
+    border: none;
 }
 
 /* About */
@@ -192,6 +226,19 @@ body {
     width: 100%;
     display: block;
 }
+/* botones */
+.boton {
+    display: inline-block;
+    background-color: #11222F;
+    justify-self: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 32px;
+}
+
+
+
 
 /* price */
 
